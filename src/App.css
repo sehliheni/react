@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.App-header {
+    background: #1abc9c;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    }
+    .title{
+        text-decoration: none;
+        color: aliceblue;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+    }
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.6em;
+        width: 10%;
+        font-weight: 600;
+        padding-left: 6px;
+        
+    }
+    a:hover{
+        color: aquamarine;
+    }
